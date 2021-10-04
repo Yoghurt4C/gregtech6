@@ -51,7 +51,7 @@ public class Loader_Items implements Runnable {
 		ItemsGT.FOOD       = new MultiItemFood();
 		ItemsGT.BOTTLES    = new MultiItemBottles();
 		ItemsGT.BOOKS      = new MultiItemBooks();
-		ItemsGT.BUMBLEBEES = new MultiItemBumbles();
+		ItemsGT.BUMBLEBEES = new MultiItemBumbles(MD.GT.mID, "gt.multiitem.bumblebee");
 		
 		ItemsGT.ALL_MULTI_ITEMS[0] = ItemsGT.TECH;
 		ItemsGT.ALL_MULTI_ITEMS[1] = ItemsGT.TOOLS;
